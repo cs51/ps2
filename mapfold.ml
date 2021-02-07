@@ -10,20 +10,20 @@ for completing the problems. In addition, make sure that you are
 familiar with the problem set procedures in the document "Problem set
 procedures for CS51".
 
-Solve each problem in this part using `List.map`, `List.fold_left`,
-`List.fold_right`, and `List.filter`, as well as functions from earlier
-problems. You are permitted to use other functions from the `List`
-module. However, you should think about whether they’re necessary and be
-mindful of their usage.
+The goal of this problem set is to get you programming with
+higher-order functions in the "map/fold/filter" style. Consequently,
+your solutions should all use `List.map`, `List.fold_left`,
+`List.fold_right`, `List.filter`, or functions from earlier
+problems. As a result, you should not need to change the definition of
+these functions to make them explicitly recursive. You are permitted
+to use other functions from the `List` module; however, you should
+think about whether they're necessary and be mindful of their usage.
 
-A solution, even a working one, that does not use at least one of these
-higher-order functions will receive little or no design and style
-credit. However, if you can express your solution to a particular
-problem in terms of other functions from earlier problems, you may do
-so.
-
-You *should not* change the definition of these functions to make them
-explicitly recursive.
+A solution that does not use at least one of these higher-order
+functions, even a working one, will receive little or no design and
+style credit. However, if you can express your solution to a
+particular problem in terms of other functions from earlier problems,
+you may do so.
 
 ........................................................................
 Problem 1: Define a function `negate_all` that flips the sign of each
